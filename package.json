@@ -14,7 +14,7 @@
     ],
     "scripts": {
         "lint": "jshint lib",
-        "test": "mocha",
+        "test": "node ./src/test.js",
         "prepublish": "node ./scripts/generateTestFiles.js"
     },
     "dependencies": {
