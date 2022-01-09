@@ -15,7 +15,8 @@
     "scripts": {
         "lint": "jshint lib",
         "test": "node ./src/test.js",
-        "prepublish": "node ./scripts/generateTestFiles.js"
+        "prepublish": "node ./scripts/generateTestFiles.js",
+        "promise": "node ./src/node-promise.js"
     },
     "dependencies": {
         "mocha": "^2.5.3",
